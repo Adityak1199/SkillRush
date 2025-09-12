@@ -27,4 +27,5 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`); // ✅ backticks for template literal
 });
 
+export default app
 
