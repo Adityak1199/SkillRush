@@ -18,7 +18,7 @@ app.use(express.json()); // Add this to parse JSON requests
 
 // Routes
 app.get('/', (req, res) => res.send("API Working hi"));
-app.post('/clerk',express.json(),clerkWebhooks)
+app.post('/clerk',express.json(),clerkWebhooks);
 
 // Port
 const PORT = process.env.PORT || 4000;

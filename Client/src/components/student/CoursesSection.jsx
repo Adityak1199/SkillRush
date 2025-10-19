@@ -17,7 +17,7 @@ const CoursesSection = () => {
 
 <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 my-10 px-4 md:px-0">
   {allCourses?.slice(0, 4).map((course) => (
-    <CourseCard key={course.id} course={course} />
+    <CourseCard key={course._id} course={course} />
   ))}
 </div>
 
